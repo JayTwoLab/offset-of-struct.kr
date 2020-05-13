@@ -71,3 +71,6 @@ size_t s1 = offsetof(struct HelloOffset *, hello3); // 결과는 8 이다. (32bi
 ```
 
 위의 OFFSETOF() 보다는 타입 변환 등이 더 C++ 표준적인 요소가 많음을 알 수 있다.
+
+- https://github.com/j2doll/offset-of-struct.kr
+- https://j2doll.tistory.com/262
