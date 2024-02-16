@@ -51,7 +51,7 @@ struct HelloOffset
 ```
 
 ```cpp
-size_t s1 = offsetof(struct HelloOffset *, hello3); // 결과는 8 이다. (32bit OS)
+size_t s1 = OFFSETOF(struct HelloOffset *, hello3); // 결과는 8 이다. (32bit OS)
 ```
 
 그런데, offsetof() 라는 동일한 기능을 갖는 매크로가 이미 존재한다.
